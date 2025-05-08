@@ -1,0 +1,59 @@
+body {
+    margin: 0px;
+    
+    color: white;
+    background-color: black;
+    font-family: Arial;
+}
+
+img {
+    width: 300px;
+    border-radius: 20px;
+}
+
+.bt {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    font-size: 18px;
+    border-radius: 20px;
+    background-color: red;
+    padding: 5px;
+    color: white;
+    }
+
+
+
+.card {
+    width: 300px;
+    border: 1px solid red;
+    border-radius: 20px;
+    margin: 10px;
+    vertical-align: top;
+    padding: 20px;
+    display: inline-block;
+    min-height: 500px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 3px 3px 15px -2px yellow, -3px -3px 15px -2px yellow;
+    transition:
+    box-shadow 0.5s,
+    transform 0.5s;
+}
+
+
+
+
+table {
+    color: purple;
+}
+
+
+.sec {
+    color: blue;
+}
+.sec:hover {
+    color: purple;
+}

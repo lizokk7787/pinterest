@@ -1,0 +1,57 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Cайт!</title>
+  <link rel="stylesheet" href="{% static 'new_site/index.css' %}">
+</head>
+<body>
+  <article class="card">
+  <img src={% static 'new_site/pic1.jpg' %}>
+  <p>First picture</p>
+  <button class="bt">Save</button>
+  </article>
+  
+  <article class="card">
+  <img src={% static 'new_site/pic2.jpg' %}>
+  <p>Second picture</p>
+  <button class="bt">Save</button>
+  </article>
+  
+  <article class="card">
+  <img src={% static 'new_site/pic3.jpg' %}>
+  <p>Third picture</p>
+  <button class="bt">Save</button>
+  </article>
+  
+  <article class="card">
+  <img src={% static 'new_site/pic4.jpg' %}>
+  <p>Fourth picture</p>
+  <button class="bt">Save</button>
+  </article>
+  
+  <a href="second/" class="sec">second</a>
+  
+  <table>
+    <tr>
+      <th>Товар</th>
+      <th>Количество</th>
+      <th>Цена</th>
+    </tr>
+    <tr>
+      <td>Арбуз</td>
+      <td>42</td>
+      <td>450</td>
+    </tr>
+    <tr>
+      <td>Дыня</td>
+      <td>103</td>
+      <td>420</td>
+    </tr>
+  </table>
+  
+  
+  
+</body>
+</html>
